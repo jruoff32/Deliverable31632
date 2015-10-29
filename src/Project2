@@ -1,0 +1,23 @@
+import junit.framework.Test;
+import junit.framework.TestSuite;
+
+public class Project2 {
+
+  public static Test suite() {
+    TestSuite suite = new TestSuite();
+    suite.addTestSuite(User Story 2.class);
+    suite.addTestSuite(User Story 3.class);
+    suite.addTestSuite(User Story 4.class);
+    suite.addTestSuite(User Story 5.class);
+    suite.addTestSuite(User Story 6.class);
+    suite.addTestSuite(User Story 13.class);
+    suite.addTestSuite(User Story 14.class);
+    suite.addTestSuite(User Story 15.class);
+    suite.addTestSuite(User Story 16.class);
+    return suite;
+  }
+
+  public static void main(String[] args) {
+    junit.textui.TestRunner.run(suite());
+  }
+}
